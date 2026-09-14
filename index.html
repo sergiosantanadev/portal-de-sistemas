@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Portal de Sistemas do Distrito Nordeste Central"
+  >
+
+  <meta
+    name="theme-color"
+    content="#0f3d63"
+  >
+
+  <title>DISTRITO NE CENTRAL</title>
+
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portal de Sistemas — Distrito Nordeste Central">
+  <meta property="og:description" content="Acesse de forma rápida e organizada os sistemas administrativos do Distrito Nordeste Central.">
+  <meta property="og:image" content="./assets/og-image.png">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portal de Sistemas — Distrito Nordeste Central">
+  <meta name="twitter:description" content="Portal de acesso aos sistemas administrativos do Distrito Nordeste Central.">
+  <meta name="twitter:image" content="./assets/og-image.png">
+</head>
+
+<body>
+<!-- =======================================================
+       HEADER
+  ======================================================== -->
+
+  <header>
+    <div class="container header-content">
+
+      <nav class="navbar">
+
+        <a href="#" class="brand" aria-label="Distrito Nordeste Central">
+          <img
+            src="./assets/logo.png"
+            alt="Distrito Nordeste Central"
+            class="brand-logo-image"
+            onerror="this.style.display='none'"
+          >
+
+          <div class="brand-text">
+            <div class="brand-title">
+              Distrito Nordeste Central
+            </div>
+
+            <div class="brand-subtitle">
+              Coordenação Integral de Ministérios - CIM
+            </div>
+          </div>
+
+        </a>
+
+        <a
+          href="#sistemas"
+          class="header-link"
+        >
+          Sistemas
+        </a>       
+        
+
+      </nav>
+
+      <section class="hero">
+
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Sistemas oficiais do Distrito
+        </div>
+
+        <h1>
+          Portal de
+          <span>Sistemas</span>
+        </h1>
+
+        <p class="hero-description">
+          Acesse de forma rápida e segura os sistemas administrativos
+          utilizados pelo Distrito Nordeste Central.
+        </p>
+
+      </section>
+
+    </div>
+  </header>
+
+
+  <!-- =======================================================
+       MAIN
+  ======================================================== -->
+
+  <main id="sistemas">
+
+    <div class="container">
+
+      <div class="toolbar">
+
+        <div class="section-heading">
+
+          <div class="section-title">
+            Sistemas disponíveis
+          </div>
+
+          <div class="section-description">
+            Selecione um sistema para iniciar.
+          </div>
+
+        </div>
+
+        <div class="search-wrapper">
+
+          <span class="search-icon">
+            🔎
+          </span>
+
+          <input
+            type="search"
+            id="searchInput"
+            class="search-input"
+            placeholder="Buscar sistema..."
+            autocomplete="off"
+            aria-label="Buscar sistema"
+          >
+
+        </div>
+
+      </div>
+
+
+      <!-- =====================================================
+           CARDS
+      ====================================================== -->
+
+      <div
+        class="systems-grid"
+        id="systemsGrid"
+        aria-live="polite"
+        aria-busy="true"
+      >
+        <article class="system-card skeleton-card" aria-hidden="true">
+          <div class="skeleton skeleton-icon"></div>
+          <div class="skeleton skeleton-title"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line short"></div>
+          <div class="skeleton skeleton-button"></div>
+        </article>
+        <article class="system-card skeleton-card" aria-hidden="true"></article>
+        <article class="system-card skeleton-card" aria-hidden="true"></article>
+      </div>
+
+
+      <div
+        class="empty-state"
+        id="emptyState"
+      >
+
+        <div class="empty-icon">
+          🔎
+        </div>
+
+        <div class="empty-title">
+          Nenhum sistema encontrado
+        </div>
+
+        <p>
+          Tente buscar utilizando outro termo.
+        </p>
+
+      </div>
+
+
+      <!-- =====================================================
+           INFORMAÇÕES
+      ====================================================== -->
+
+      <section class="info-section">
+
+        <div class="info-box">
+
+          <div class="info-icon">
+            🔐
+          </div>
+
+          <div>
+
+            <div class="info-title">
+              Acesso seguro
+            </div>
+
+            <div class="info-text">
+              Alguns sistemas podem exigir autenticação
+              ou autorização específica.
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="info-box">
+
+          <div class="info-icon">
+            📱
+          </div>
+
+          <div>
+
+            <div class="info-title">
+              Acesso pelo celular
+            </div>
+
+            <div class="info-text">
+              O portal foi desenvolvido para funcionar
+              também em smartphones e tablets.
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="info-box">
+
+          <div class="info-icon">
+            🆘
+          </div>
+
+          <div>
+
+            <div class="info-title">
+              Suporte
+            </div>
+
+            <div class="info-text">
+              Em caso de dificuldades, procure o
+              responsável administrativo do Distrito.
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+
+  </main>
+
+
+  <!-- =======================================================
+       FOOTER
+  ======================================================== -->
+
+  <footer>
+
+    <div class="container footer-content">
+
+      <div class="footer-brand">
+
+        <strong>
+          Distrito Nordeste Central
+        </strong>
+
+        <span>
+          Portal de Sistemas
+        </span>
+
+      </div>
+
+      <div class="footer-info">
+
+        © <span id="currentYear"></span>
+        Igreja do Nazareno
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =======================================================
+       MODAL DE COMPARTILHAMENTO
+  ======================================================== -->
+
+  <div
+    class="modal-overlay"
+    id="shareModal"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="modalTitle"
+  >
+
+    <div class="modal">
+
+      <div class="modal-header">
+
+        <div
+          class="modal-title"
+          id="modalTitle"
+        >
+          Compartilhar sistema
+        </div>
+
+        <button
+          class="modal-close"
+          id="modalClose"
+          type="button"
+          aria-label="Fechar"
+        >
+          ×
+        </button>
+
+      </div>
+
+      <div
+        class="share-preview"
+        id="sharePreview"
+      >
+        Link do sistema
+      </div>
+
+      <div class="share-actions">
+
+        <button
+          class="share-action primary"
+          id="whatsappButton"
+          type="button"
+        >
+          WhatsApp
+        </button>
+
+        <button
+          class="share-action secondary"
+          id="copyButton"
+          type="button"
+        >
+          Copiar link
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =======================================================
+       JAVASCRIPT
+  ======================================================== -->
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
