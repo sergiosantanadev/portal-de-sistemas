@@ -32,7 +32,7 @@ export const SISTEMAS = [
         */
 
         url:
-          "https://script.google.com/macros/s/AKfycbx8qQneuN9hOS-dQ0WsL2eclNu8hslgSYZMzk48cxcElG6OqIkcXLuah1nTaMxBrv4SHw/exec"
+          "https://script.google.com/macros/s/AKfycbzlioy6jHro4uFaZJkTeFxo4FUAOdDuZ1ZJzpl8Arv5dfYT452NVOT3sbDTrktU4xND/exec"
       },
 
 
@@ -48,7 +48,7 @@ export const SISTEMAS = [
 
         categoria: "Cadastro",
 
-        status: "disponivel",
+        status: "indisponivel",
 
         access: false,
 
@@ -68,7 +68,7 @@ export const SISTEMAS = [
 
         categoria: "Relatórios",
 
-        status: "disponivel",
+        status: "indisponivel",
 
         access: false,
 
@@ -88,7 +88,7 @@ export const SISTEMAS = [
 
         categoria: "Documentos",
 
-        status: "disponivel",
+        status: "indisponivel",
 
         access: false,
 
@@ -124,15 +124,15 @@ export const SISTEMAS = [
         descricao:
           "Área revervada aos Administradores do Distrito.",
 
-        icone: "👥",
+        icone: "⚙️",
 
         categoria: "Administração",
 
-        status: "indisponivel",
+        status: "disponivel",
 
-        access: false,
+        access: true,
 
-        url: "#"
+        url: "https://script.google.com/macros/s/AKfycbxZLA-7tCS5vREriHqhu7RpC9eMkRfMjnB7iOagZrqI6rn9BgvcbtlNh7Zjv_oyvo2m/exec"
       }
 
     ];
