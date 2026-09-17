@@ -125,6 +125,26 @@ export const SISTEMAS = [
 
 
       {
+        id: "tesouraria",
+
+        nome: "Tesouraria",
+
+        descricao:
+          "Formulário de tesouraria.",
+
+        icone: "💰",
+
+        categoria: "Financeiro",
+
+        status: "indisponivel",
+
+        access: true,
+
+        url: "#"
+      },
+
+
+      {
         id: "agenda",
 
         nome: "Agenda Administrativa",
