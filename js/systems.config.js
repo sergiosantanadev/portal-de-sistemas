@@ -116,7 +116,7 @@ export const SISTEMAS = [
 
         categoria: "Documentos",
 
-        status: "indisponivel",
+        status: "disponivel",
 
         access: true,
 
