@@ -120,7 +120,7 @@ export const SISTEMAS = [
 
         access: true,
 
-        url: "https://drive.google.com/drive/folders/1HigFgQOp8Odt3R_xWC9oZYZhInsK9nq-"
+        url: "https://drive.google.com/drive/folders/1HigFgQOp8Odt3R_xWC9oZYZhInsK9nq-?usp=sharing"
       },
 
 
