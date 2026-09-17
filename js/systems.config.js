@@ -130,7 +130,7 @@ export const SISTEMAS = [
         nome: "Tesouraria",
 
         descricao:
-          "Formulário de tesouraria.",
+          "Formulário de tesouraria, comprovantes, recibos, ofertas, fundo distrital, fundo teologico.",
 
         icone: "💰",
 
