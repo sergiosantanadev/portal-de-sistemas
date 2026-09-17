@@ -35,6 +35,34 @@ export const SISTEMAS = [
           "https://script.google.com/macros/s/AKfycbzlioy6jHro4uFaZJkTeFxo4FUAOdDuZ1ZJzpl8Arv5dfYT452NVOT3sbDTrktU4xND/exec"
       },
 
+      {
+        id: "entrevista-ministerial",
+
+        nome: "Entrevista Ministerial",
+
+        descricao:
+          "Formulário de entrevista ministerial, primeira entrenvista, renovação de licenças, sugestões e definições ministeriais.",
+
+        icone: "📖",
+
+        categoria: "Administrativo",
+
+        status: "disponivel",
+
+        access: true,
+
+        /*
+          COLOQUE AQUI O LINK REAL DO SEU
+          GOOGLE APPS SCRIPT WEB APP.
+
+          Exemplo:
+          https://script.google.com/macros/s/XXXX/exec
+        */
+
+        url:
+          "https://script.google.com/macros/s/AKfycbxZRPmnqhGtevcX24DZWvkD26A1-sNS8UYMl4nsjXqMe7SAC4lwqfcJ9ri995VWEnWo/exec"
+      },
+
 
       {
         id: "cadastro-igrejas",
