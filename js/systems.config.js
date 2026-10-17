@@ -63,6 +63,34 @@ export const SISTEMAS = [
           "https://script.google.com/macros/s/AKfycbxZRPmnqhGtevcX24DZWvkD26A1-sNS8UYMl4nsjXqMe7SAC4lwqfcJ9ri995VWEnWo/exec"
       },
 
+      {
+        id: "rap-relatorio-anual-pastor",
+
+        nome: "RAP - Relatório Anual do Pastor",
+
+        descricao:
+          "É o relatório do pastor e da igreja local à Assembleia Distrital. Descreve as atividades da igreja e suas organizações auxiliares durante o ano estatístico do distrito. Os dados coletados através do RAP são significativos para registrar o ministério da igreja local, distrito e denominação. A conclusão do RAP é exigida pelo parágrafo 125.5 do Manual.",
+
+        icone: "📖",
+
+        categoria: "Administrativo",
+
+        status: "indisponivel",
+
+        access: false,
+
+        /*
+          COLOQUE AQUI O LINK REAL DO SEU
+          GOOGLE APPS SCRIPT WEB APP.
+
+          Exemplo:
+          https://script.google.com/macros/s/XXXX/exec
+        */
+
+        url:
+          ""
+      },
+
 
       {
         id: "cadastro-igrejas",
