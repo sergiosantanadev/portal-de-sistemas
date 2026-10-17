@@ -69,7 +69,7 @@ export const SISTEMAS = [
         nome: "RAP - Relatório Anual do Pastor",
 
         descricao:
-          "É o relatório do pastor e da igreja local à Assembleia Distrital. Descreve as atividades da igreja e suas organizações auxiliares durante o ano estatístico do distrito. Os dados coletados através do RAP são significativos para registrar o ministério da igreja local, distrito e denominação. A conclusão do RAP é exigida pelo parágrafo 125.5 do Manual.",
+          "Formulário do pastor e da igreja local à Assembleia Distrital, atividades da igreja e suas organizações, exigida pelo parágrafo 125.5 do Manual.",
 
         icone: "📖",
 
