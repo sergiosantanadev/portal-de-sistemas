@@ -71,7 +71,7 @@ export const SISTEMAS = [
         descricao:
           "Formulário do pastor e da igreja local à Assembleia Distrital, atividades da igreja e suas organizações, exigida pelo parágrafo 125.5 do Manual.",
 
-        icone: "📖",
+        icone: "👨🏻‍💼",
 
         categoria: "Administrativo",
 
