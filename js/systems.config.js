@@ -32,7 +32,7 @@ export const SISTEMAS = [
         */
 
         url:
-          "https://script.google.com/macros/s/AKfycbzlioy6jHro4uFaZJkTeFxo4FUAOdDuZ1ZJzpl8Arv5dfYT452NVOT3sbDTrktU4xND/exec"
+          "https://script.google.com/macros/s/AKfycbxSLp6SchwVDF782F1jrWfuGWBzVPktSLa91qTLSDSvcW7i0jGgr_1Cv3MjySABndaE/exec"
       },
 
       {
